@@ -1,6 +1,26 @@
 body {
   font-family: sans-serif;
   margin: 0;
+
+  padding: 1rem;
+}
+
+.tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tab-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+}
+
+.tab-button.active {
+  background: #ccc;
+=======
   padding: 2rem;
 }
 
@@ -26,6 +46,7 @@ body {
 
 .tab-panel {
   padding: 1rem 0;
+
 }
 
 form {
@@ -33,6 +54,11 @@ form {
   flex-direction: column;
   gap: 0.5rem;
   margin-bottom: 1rem;
+}
+
+
+button {
+  cursor: pointer;
 }
 
 input {
@@ -53,3 +79,4 @@ button {
 button:hover {
   opacity: 0.9;
 }
+

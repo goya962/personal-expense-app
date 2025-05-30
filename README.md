@@ -16,3 +16,7 @@ Aplicación web moderna para control de gastos personales usando Next.js y Fireb
 - `/src/app/globals.css` contiene estilos globales
 
 Importa este repositorio en GitHub Codespaces o ejecútalo localmente.
+
+## Nuevos archivos
+- `src/app/globals.css` estilos globales y para las pestañas.
+- `src/components/Tabs.tsx` componente reutilizable de pestañas.
