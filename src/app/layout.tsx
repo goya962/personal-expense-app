@@ -1,4 +1,9 @@
+
 import "./globals.css";
+
+import './globals.css';
+
+
 export const metadata = {
   title: 'Personal Expense App',
   description: 'Gestiona tus gastos personales',
