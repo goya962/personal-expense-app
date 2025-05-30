@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 2rem;
+}
+
+.tabs {
+  margin-top: 1rem;
+}
+
+.tab-buttons button {
+  margin-right: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  cursor: pointer;
+}
+
+.tab-buttons button.active {
+  font-weight: bold;
+}
+
+form input {
+  margin-right: 0.5rem;
+  padding: 0.25rem;
+}
+
+form button {
+  padding: 0.25rem 0.75rem;
+}
