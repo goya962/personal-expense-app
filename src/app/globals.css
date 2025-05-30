@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 1rem;
+}
+
+.tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tab-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+}
+
+.tab-button.active {
+  background: #ccc;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  cursor: pointer;
+}
