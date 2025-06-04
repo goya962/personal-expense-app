@@ -1,17 +1,9 @@
 import { BankForm } from '../components/Banks/BankForm';
 import { BankList } from '../components/Banks/BankList';
-
-import { Tabs, TabItem } from '../components/Tabs';
-
-export default function Home() {
-  const tabs: TabItem[] = [
-
-
-import { Tabs, Tab } from '../components/Tabs';
+import { Tabs, TabItem } from '../components/Tabs'; // Or Tab, depending on the actual export
 
 export default function Home() {
-  const tabs: Tab[] = [
-
+  const tabs: TabItem[] = [ // Or Tab[]
     {
       label: 'Bancos',
       content: (
@@ -21,30 +13,16 @@ export default function Home() {
         </>
       ),
     },
-
-    { label: 'Resumen', content: <div>Próximamente</div> },
-
     {
       label: 'Resumen',
-      content: <p>Próximamente...</p>,
+      content: <p>Próximamente...</p>, // Or <div>Próximamente</div>
     },
-
   ];
 
   return (
     <main>
       <h1>Personal Expense App</h1>
       <Tabs tabs={tabs} />
-
-
-
-export default function Home() {
-  return (
-    <main>
-      <h1>Personal Expense App</h1>
-      <BankForm />
-      <BankList />
-
     </main>
   );
 }
